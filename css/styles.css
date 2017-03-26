@@ -28,10 +28,7 @@ header {
   background-color: orange;
   width: auto;
   height: 200px;
-  margin-top: 25px;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 10px;
+  margin: 25px 20px 10px 20px;
   position: relative;
   box-shadow: 0px 20px 40px -10px rgba(0, 0, 0, 0.2);
   text-align: center; }
@@ -91,6 +88,8 @@ header {
     border-radius: 50%; }
 
 @media (max-width: 450px) {
+  .wrapper {
+    height: 100%; }
   .container {
     display: block;
     min-height: 0; }
@@ -102,4 +101,7 @@ header {
     flex-direction: row; }
   .nice {
     border-bottom-width: 0;
-    width: 50px; } }
+    width: 50px;
+    border-right-color: whitesmoke;
+    border-right-width: 2px;
+    border-right-style: solid; } }
