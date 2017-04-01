@@ -1,0 +1,123 @@
+* {
+  margin: 0px; }
+
+.wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.sidebar {
+  width: 120px;
+  height: auto;
+  background-color: white;
+  box-shadow: 2px 0 20px -5px rgba(0, 0, 0, 0.3);
+  z-index: 1; }
+  .sidebar .header-position {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+.content {
+  width: 100%;
+  height: auto; }
+  .content .homebox {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 20px -5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(-45deg, #10ef80 0%, #00f756 100%); }
+  .content .lifebox {
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 2px 20px -5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #ff7400 0%, #fca119 100%); }
+  .content .contactbox {
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 2px 20px -5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #a9e4f7 0%, #0fb4e7 100%); }
+  .content .footer {
+    width: 100%;
+    height: 142px;
+    background-color: black; }
+
+img {
+  width: 80px;
+  margin: 10px; }
+
+ul {
+  padding: 0;
+  margin-top: -50px;
+  margin-right: 10px;
+  text-align: right;
+  list-style: none;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 500;
+  line-height: 1.5; }
+
+p {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+.text {
+  width: auto;
+  height: 300px;
+  padding: 0;
+  margin: 0 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.2); }
+
+@media (max-width: 640px) {
+  .wrap {
+    display: block; }
+  .sidebar {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 1px 20px -5px rgba(0, 0, 0, 0.3);
+    z-index: 2; }
+    .sidebar .header-position {
+      width: 100%;
+      height: 80px;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      position: absolute; }
+      .sidebar .header-position p {
+        display: none; }
+      .sidebar .header-position img {
+        height: auto;
+        width: 80px;
+        margin: 10px; }
+      .sidebar .header-position ul {
+        margin-top: -75px;
+        padding: 0;
+        margin-right: 10px;
+        text-align: right;
+        list-style: none;
+        font-family: "Montserrat Subrayada", sans-serif;
+        font-weight: 500;
+        line-height: 1.5; }
+  .content {
+    padding-top: 80px; } }
