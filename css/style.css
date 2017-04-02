@@ -66,7 +66,7 @@ ul {
   font-weight: 500;
   line-height: 1.5; }
 
-p {
+.email {
   font-family: "Montserrat Subrayada", sans-serif;
   font-weight: 500;
   text-align: right;
@@ -79,7 +79,16 @@ p {
   padding: 0;
   margin: 0 20px;
   background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.2);
+  padding: 10px; }
+
+.tit {
+  color: white;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 500; }
+
+p {
+  color: white; }
 
 @media (max-width: 640px) {
   .wrap {
