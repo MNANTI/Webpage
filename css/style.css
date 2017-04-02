@@ -87,7 +87,7 @@ ul {
   font-family: "Montserrat Subrayada", sans-serif;
   font-weight: 500; }
 
-p {
+.ok {
   color: white; }
 
 @media (max-width: 640px) {
